@@ -31,8 +31,6 @@ The playlist mentioned below helped me a lot during the development of this proj
 
 ![Game Screen](https://github.com/ayushxsharma0/Chess-Engine/blob/main/res/images/game%20screen.png)
 
-![Demo Video](https://github.com/ayushxsharma0/Chess-Engine/blob/main/res/images/Demo%20Video.mp4)
-
 #### Keys:
 * Press `z` to undo a move.
 * Press `r` to reset the game.
