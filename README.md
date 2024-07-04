@@ -27,7 +27,8 @@ The playlist mentioned below helped me a lot during the development of this proj
 4. Enjoy the game!
 
 ## App pictures:
-![Main Screen]
+![Game Screen](https://github.com/ayushxsharma0/Chess-Engine/blob/main/res/images/game%20screen.png)
+![Main Screen](https://github.com/ayushxsharma0/Chess-Engine/blob/main/res/images/main%20screen.png)
 
 #### Keys:
 * Press `z` to undo a move.
