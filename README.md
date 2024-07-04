@@ -27,6 +27,7 @@ The playlist mentioned below helped me a lot during the development of this proj
 4. Enjoy the game!
 
 ## App pictures:
+![Main Screen]
 
 #### Keys:
 * Press `z` to undo a move.

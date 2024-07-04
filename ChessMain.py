@@ -26,11 +26,11 @@ def main_screen():
     screen = p.display.set_mode((500,500))
     screen.fill("black")
     p.display.set_caption("Welcome")
-    icon = p.image.load("chess/res/images/bp.png")
+    icon = p.image.load("res/images/bp.png")
     p.display.set_icon(icon)
 
-    ai = p.image.load("chess/res/images/vs_ai_black.png").convert_alpha()
-    human = p.image.load("chess/res/images/vs_human_black.png").convert_alpha()
+    ai = p.image.load("res/images/vs_ai_black.png").convert_alpha()
+    human = p.image.load("res/images/vs_human_black.png").convert_alpha()
 
     ai_btn = Button(150,150,ai,0.5)
     human_btn = Button(150,250,human,0.5)
@@ -66,7 +66,7 @@ def loadImages():
     """
     pieces = ['wp', 'wR', 'wN', 'wB', 'wK', 'wQ', 'bp', 'bR', 'bN', 'bB', 'bK', 'bQ']
     for piece in pieces:
-        IMAGES[piece] = p.transform.scale(p.image.load("chess/res/images/" + piece + ".png"), (SQUARE_SIZE, SQUARE_SIZE))
+        IMAGES[piece] = p.transform.scale(p.image.load("res/images/" + piece + ".png"), (SQUARE_SIZE, SQUARE_SIZE))
 
 
 def main():
@@ -77,7 +77,7 @@ def main():
     p.init()
     screen = p.display.set_mode((BOARD_WIDTH + MOVE_LOG_PANEL_WIDTH, BOARD_HEIGHT))
     p.display.set_caption("Chess")
-    icon = p.image.load("chess/res/images/bp.png")
+    icon = p.image.load("res/images/bp.png")
     p.display.set_icon(icon)
     clock = p.time.Clock()
     screen.fill(p.Color("white"))
