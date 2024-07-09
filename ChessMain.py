@@ -41,7 +41,9 @@ def main_screen():
         screen.fill("black")
 
         if ai_btn.draw(screen):
+            global player_one
             player_one = True
+            global player_two
             player_two = False
             break
         if human_btn.draw(screen):
